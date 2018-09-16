@@ -28,7 +28,7 @@
 
 ⊕ **new EnforcerError**(__namedParameters: *`object`*): [EnforcerError](enforcererror.md)
 
-*Defined in [enforcer/index.ts:20](https://github.com/Agile-IoT/agile-enforcer/blob/f8a653a/lib/enforcer/index.ts#L20)*
+*Defined in [enforcer/index.ts:20](https://github.com/Agile-IoT/agile-enforcer/blob/26f7c03/lib/enforcer/index.ts#L20)*
 
 **Parameters:**
 
@@ -48,7 +48,7 @@ ___
 
 **● code**: *`number`*
 
-*Defined in [enforcer/index.ts:18](https://github.com/Agile-IoT/agile-enforcer/blob/f8a653a/lib/enforcer/index.ts#L18)*
+*Defined in [enforcer/index.ts:18](https://github.com/Agile-IoT/agile-enforcer/blob/26f7c03/lib/enforcer/index.ts#L18)*
 
 ___
 <a id="data"></a>
@@ -57,7 +57,7 @@ ___
 
 **● data**: *`any`*
 
-*Defined in [enforcer/index.ts:20](https://github.com/Agile-IoT/agile-enforcer/blob/f8a653a/lib/enforcer/index.ts#L20)*
+*Defined in [enforcer/index.ts:20](https://github.com/Agile-IoT/agile-enforcer/blob/26f7c03/lib/enforcer/index.ts#L20)*
 
 ___
 <a id="message"></a>
@@ -66,7 +66,7 @@ ___
 
 **● message**: *`string`*
 
-*Defined in [enforcer/index.ts:19](https://github.com/Agile-IoT/agile-enforcer/blob/f8a653a/lib/enforcer/index.ts#L19)*
+*Defined in [enforcer/index.ts:19](https://github.com/Agile-IoT/agile-enforcer/blob/26f7c03/lib/enforcer/index.ts#L19)*
 
 ___
 

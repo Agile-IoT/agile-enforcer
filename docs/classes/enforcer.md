@@ -8,7 +8,6 @@
 
 ## Index
 
-<<<<<<< HEAD
 ### Constructors
 
 * [constructor](enforcer.md#constructor)
@@ -33,7 +32,7 @@
 
 ⊕ **new Enforcer**(apiSchema: *`any`*, config: *`any`*): [Enforcer](enforcer.md)
 
-*Defined in [enforcer/index.ts:36](https://github.com/Agile-IoT/agile-enforcer/blob/f8a653a/lib/enforcer/index.ts#L36)*
+*Defined in [enforcer/index.ts:36](https://github.com/Agile-IoT/agile-enforcer/blob/26f7c03/lib/enforcer/index.ts#L36)*
 
 **Parameters:**
 
@@ -54,7 +53,7 @@ ___
 
 **● apiSchema**: *`any`*
 
-*Defined in [enforcer/index.ts:35](https://github.com/Agile-IoT/agile-enforcer/blob/f8a653a/lib/enforcer/index.ts#L35)*
+*Defined in [enforcer/index.ts:35](https://github.com/Agile-IoT/agile-enforcer/blob/26f7c03/lib/enforcer/index.ts#L35)*
 
 ___
 <a id="config"></a>
@@ -63,58 +62,36 @@ ___
 
 **● config**: *`any`*
 
-*Defined in [enforcer/index.ts:36](https://github.com/Agile-IoT/agile-enforcer/blob/f8a653a/lib/enforcer/index.ts#L36)*
+*Defined in [enforcer/index.ts:36](https://github.com/Agile-IoT/agile-enforcer/blob/26f7c03/lib/enforcer/index.ts#L36)*
 
 ___
 
-=======
-### Methods
-
-* [authorize](enforcer.md#authorize)
-
----
-
->>>>>>> f8a653ab806640b7a2336cb600c9a7abd799d63d
 ## Methods
 
 <a id="authorize"></a>
 
 ###  authorize
 
-<<<<<<< HEAD
 ▸ **authorize**(options: *[EnforcerOptions](../interfaces/enforceroptions.md)*): `Promise`<`boolean`>
 
-*Defined in [enforcer/index.ts:43](https://github.com/Agile-IoT/agile-enforcer/blob/f8a653a/lib/enforcer/index.ts#L43)*
-=======
-▸ **authorize**(origin: *`string`*, target: *`string`*, method: *`string`*, action: *`string`*): `Promise`<`boolean`>
-
-*Defined in [enforcer/index.ts:17](https://github.com/Agile-IoT/agile-enforcer/blob/9dfedaf/lib/enforcer/index.ts#L17)*
->>>>>>> f8a653ab806640b7a2336cb600c9a7abd799d63d
+*Defined in [enforcer/index.ts:43](https://github.com/Agile-IoT/agile-enforcer/blob/26f7c03/lib/enforcer/index.ts#L43)*
 
 **Parameters:**
 
 | Param | Type |
 | ------ | ------ |
-<<<<<<< HEAD
 | options | [EnforcerOptions](../interfaces/enforceroptions.md) |
-=======
-| origin | `string` |
-| target | `string` |
-| method | `string` |
-| action | `string` |
->>>>>>> f8a653ab806640b7a2336cb600c9a7abd799d63d
 
 **Returns:** `Promise`<`boolean`>
 
 ___
-<<<<<<< HEAD
 <a id="extractoptions"></a>
 
 ### `<Static>` extractOptions
 
 ▸ **extractOptions**(reqMethod: *`string`*, reqPath: *`string`*): `(Anonymous function)`
 
-*Defined in [enforcer/index.ts:115](https://github.com/Agile-IoT/agile-enforcer/blob/f8a653a/lib/enforcer/index.ts#L115)*
+*Defined in [enforcer/index.ts:115](https://github.com/Agile-IoT/agile-enforcer/blob/26f7c03/lib/enforcer/index.ts#L115)*
 
 **Parameters:**
 
@@ -126,6 +103,4 @@ ___
 **Returns:** `(Anonymous function)`
 
 ___
-=======
->>>>>>> f8a653ab806640b7a2336cb600c9a7abd799d63d
 

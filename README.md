@@ -21,8 +21,7 @@ const swaggerDefinition = fs.readFileSync('./example.swagger.yml');
 const config = {
   "origin": "agile-core",
   "methodMap": {
-    "deviceStatus": "/device/{deviceId}/status",
-    "devices": "/devices"
+    "deviceStatus": "/device/{deviceId}/status"
   }
 }
 
@@ -41,15 +40,24 @@ Example HTTP Request:
 
 `GET http://localhost:8008/agile-ui/device/1/status`
 
-Origin: *agile-core*
+Headers:
 
-Target: *agile-ui*
+```javascript
+{
+  "x-agile-api-method": "deviceStatus", // mapped to /device/{deviceId}/status through config object
+  "Authorization": "Bearer 12345" // token to be used for the PDP evaluation call
+}
+```
 
-EntityId: *1*
+Origin: *agile-core* -- mapped to agile-core through config object
 
-Method: *read* (GET)
+Target: *agile-ui* -- first segment of the incoming http request path
 
-Action: *action.typeof*
+EntityId: *1* -- mapped with swagger api definition params
+
+Method: *read* -- http request method GET
+
+Action: *action.status* -- mapped with swagger api definition property "operationId"
 
 To use `agile-enforcer` as a node module:
 
