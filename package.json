@@ -3,25 +3,22 @@
   "version": "0.0.1",
   "description": "Agile Enforcer API",
   "license": "Apache-2.0",
-  "author": "Resin.io Ltd (https://resin.io)",
+  "author": "balena.io Ltd (https://balena.io)",
   "contributors": [
-    "Lorenzo Alberto Maria Ambrosi <lorenzoa@resin.io>"
+    "Lorenzo Alberto Maria Ambrosi <lorenzoa@balena.io>"
   ],
   "keywords": [
     "iot",
     "agile",
     "enforcer"
   ],
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "start": "node dist/index.js",
-    "build": "tsc",
-    "test": "npm run build && mocha",
-    "build-docs": "typedoc --theme markdown --readme README.md --module commonjs --out docs/ lib/ --mode file --tsconfig tsconfig.json",
-    "build-test": "npm run build && npm run test",
+    "start": "node lib/index.js",
+    "test": "mocha",
     "lint": "standard lib && standard --env mocha test",
     "lint-fix": "standard --fix lib && standard --fix --env mocha test",
-    "example": "npm run build && ENFORCER_DEV_MODE=true node example.js"
+    "example": "ENFORCER_DEV_MODE=true node example.js"
   },
   "dependencies": {
     "agile-sdk": "1.2.6",
@@ -31,18 +28,8 @@
     "lodash": "4.17.10"
   },
   "devDependencies": {
-    "@types/es6-promise": "^3.3.0",
-    "@types/express": "4.16.0",
-    "@types/js-yaml": "^3.11.2",
-    "@types/lodash": "4.14.110",
-    "@types/mocha": "5.2.4",
-    "@types/node": "10.5.1",
     "mocha": "5.2.0",
-    "standard": "11.0.1",
-    "ts-loader": "4.4.2",
-    "typedoc": "0.11.1",
-    "typedoc-plugin-markdown": "1.1.13",
-    "typescript": "2.9.2"
+    "standard": "11.0.1"
   },
   "peerDependencies": {},
   "optionalDependencies": {},
