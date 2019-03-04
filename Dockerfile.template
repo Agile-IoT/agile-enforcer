@@ -21,4 +21,4 @@ RUN apt-get update && apt-get install -yq --no-install-recommends \
 COPY ./ ./
 
 # Start app
-CMD [ "npm", "start" ]
+CMD [ "node", "/usr/src/app/example.js" ]
